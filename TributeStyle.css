@@ -1,5 +1,57 @@
+html{
+    font-size: 62.5%;
+}
+
+
 body{
     font-family: "monospace", sans-serif;
-    margin: 0%;
-    padding:0%
+    margin: 0;
+    padding:0;
+}
+
+#main{
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6rem;
+}
+
+#header{
+    display: grid;
+    text-align: center;
+    font-size: 2.0rem;
+    margin-top: 2rem;
+}
+
+#title, #subtitle{
+    margin: 0;
+    padding: 0;
+}
+
+/*===============
+  image content
+=================*/
+#img-div {
+    margin: 0;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 0;
+}
+
+#image{
+    max-width: 1024px;
+    width: 100%;
+}
+/*===============
+  History content
+=================*/
+h3{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+ul{
+    margin-top: 2rem;
 }
