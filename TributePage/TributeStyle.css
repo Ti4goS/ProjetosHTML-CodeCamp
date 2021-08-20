@@ -39,11 +39,13 @@ body{
     align-content: center;
     text-align: center;
     padding: 0;
+    max-width: 1024px;
 }
 
 #image{
-    max-width: 1024px;
+    display: block;
     width: 100%;
+    max-width: 1024px;
 }
 /*===============
   History content
