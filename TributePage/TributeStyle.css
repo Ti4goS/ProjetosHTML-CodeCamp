@@ -36,6 +36,7 @@ body{
 #img-div {
     margin: 0;
     margin-top: 2rem;
+    align-content: center;
     text-align: center;
     padding: 0;
 }
@@ -54,4 +55,45 @@ h3{
 
 ul{
     margin-top: 2rem;
+}
+
+/*===================
+Prime minister coment
+=====================*/
+
+#coment{
+    margin: 2rem 10% 0 10%;
+    padding: 0.2rem;
+
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+}
+
+#signature{
+    text-align: end;
+}
+
+/*===================
+    Footer & anchor
+=====================*/
+
+footer{
+    text-align: center;
+}
+
+/*===================
+    Media Queries
+The image is responsive for all devices screens, 
+but the text needed some changes to a better fit.
+=====================*/
+
+@media (max-width: 425px){
+    #header{
+        font-size: 1.4rem;
+    }
+
+    #main{
+        font-size: 1.2rem;
+    }
 }
